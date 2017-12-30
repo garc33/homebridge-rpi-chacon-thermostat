@@ -1,0 +1,23 @@
+{
+  "name": "homebridge-rpi-chacon-thermostat",
+  "version": "0.0.1",
+  "description": "A homebridge module able to switch on/off Chacon modules to manage electric heater",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "wiringpi-node": "^2.4.4",
+    "serialport": ">=4.0.1"
+  },
+  "keywords": [
+    "RF433",
+    "chacon",
+    "wiringPi",
+    "homebridge-plugin",
+    "thermostat"
+  ],
+  "author": "garc33",
+  "license": "ISC"
+}
